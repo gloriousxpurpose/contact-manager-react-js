@@ -8,9 +8,11 @@ const Register = () => {
   const { registerUser, loading, message } = useRegister();
 
   return (
-    <div className="min-h-screen bg-slate-50 flex items-center justify-center p-4">
-
-      <div className="w-full max-w-md bg-white rounded-xl shadow-sm p-6">
+    <div
+      className="relative min-h-screen flex items-center justify-center p-4 bg-linear-to-br from-sky-200 via-blue-200 to-indigo-400"
+    >
+      <div className="absolute inset-0 bg-slate-900/20"></div>
+      <div className="relative w-full max-w-md bg-white rounded-xl shadow-sm p-6">
 
         <h2 className="text-2xl font-semibold text-slate-800 mb-1">
           Create account

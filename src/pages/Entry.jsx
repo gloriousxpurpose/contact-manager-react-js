@@ -35,7 +35,7 @@ const Entry = ({ isUpdate }) => {
   }, [contactDetail, isUpdate])
 
   return (
-    <div className="min-h-screen bg-slate-50 p-6">
+    <div className="min-h-screen bg-linear-to-br from-sky-200 via-blue-200 to-indigo-400 p-6">
 
       <div className="max-w-3xl mx-auto">
 
